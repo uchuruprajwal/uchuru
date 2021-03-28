@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>website</title>
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<style>
+		body
+		{
+			margin:0px;
+		}
+
+		#main-header
+		{
+			background:url('https://www.greenteam92.com/wp-content/uploads/2020/09/cc771a3aab6b5d60347f2a2ca42ef24f.jpg');
+			padding: 40px;
+			margin: 0px;
+			color:pink;
+	
+		}
+		#main-header h1
+		{
+			text-align:right;
+			color:pink;
+		}
+		#main-footer
+		{
+           background-color:orange;
+           padding: 30px;
+		}
+		#main-footer p
+		{
+			text-align: center;
+			font-size: 20px;
+			color:lime;
+		}
+		#main-footer small
+		{
+			margin-left: 550px;
+			font-size: 20px;
+			color:green;
+		}
+		#main-nav
+		{
+			background: linear-gradient(45deg,violet,blue,yellow,green);
+			padding: 10px;
+
+		}
+		#main-nav a
+		{
+			color: white;
+			margin-right:20px;
+			background: linear-gradient(45deg,blue,darkslategrey,green);
+			margin-left: 60px;
+
+		}
+		#main-content-section
+		{
+			width:90%;
+			margin: auto;
+			background: url
+
+		}
+
+        .main-content-article
+		{
+			
+			width: 30%;
+			display: inline-block;
+			height:500px;
+			border: 2px solid black;
+
+			border-radius: 20px;
+			box-shadow: 0px 0px black 10px;
+	
+
+			
+			
+		}
+	  .main-content-article img
+		{
+			width:300px;
+			height:200px;
+		    margin-left: 20px;
+		    transition: all 2s linear 0s;
+		}
+		 .main-content-article img:hover
+		{
+		    	transform: scaleX(1.2);
+	    }
+		.main-content-article h3
+		{
+            text-align: center;
+            color:green;
+            font-size: 30px;
+		}
+		.main-content-article p
+		{
+            color:blue;
+            font-size:20px;
+            text-decoration:underline;
+            text-align:center;
+
+		}
+		.zoom
+		{
+			width:500px;
+			margin-left:100px;
+		}
+		.main-content-article2 h3
+		{
+            text-align: center;
+            color:palegreen;
+            font-size: 30px;
+		}
+		#main-content-section2
+		{
+			width:50%;
+            background-color: orange;
+            margin: auto;
+            border-radius:20px;
+            border:5px ridge blue;
+            box-shadow: 5px 5px lime 10px;
+            margin-top: 40px;
+
+
+		}
+		.main-content-article2 img
+		{
+			width:500px;
+			height:200px;
+		    margin-left: 20px;
+		    transition: all 2s linear 0s;
+		}
+		.main-content-article2 img:hover
+		{
+			transform: perspective(200px) rotateX(45deg);
+		}
+	 .main-content-article2 p
+		{
+		  text-decoration:underline;
+		  color:darkslategrey;
+		}
+		@media (min-width: 0px) and (max-width: 800px)
+		{
+		    #main-nav a
+		    {
+		    	display: flex;
+		    	flex-direction:column;
+		    	background-color: pink;
+		    	padding:20px;
+
+		    }
+	
+		    #main-content-section
+		    {
+		    	display: flex;
+		    	display: block;
+		    	
+
+
+		    }
+
+		    .main-content-article
+		    {
+		    	width: 100%;
+		    	display: flex;
+		    	display:block;
+		    	flex-direction: column;
+		    }
+			.main-content-article img{
+				margin-left: 70px;
+			}
+
+		    .main-content-article2 img
+		    {
+		    	margin-left: 0px;
+		    	width: 75%;
+
+		    }
+		    #main-footer small
+		    {
+		    text-align: center;
+		    margin-left: 100px;	
+		    }
+		}
+	
+	
+	
+	</style>
+</head>
+<body>
+	<header id="main-header" class="animate__animated animate__backInDown">
+		<h1 class="animate__animated animate__flipInX"><span style="color:green">Sunrisers</span><span style="color:yellow">Hyderabad</span></h1>
+	</header>
+	<nav class="animate__animated animate__bounce" id="main-nav">
+		<a href="#"><i class="fas fa-home"></i>HOME</a>
+		<a href="#"><i class="fas fa-newspaper"></i>NEWS</a>
+		<a href="#"><i class="fas fa-images"></i>GALLERY</a>
+		<a href="#"><i class="fas fa-address-card"></i>ABOUT</a>
+		<a href="#"><i class="fas fa-phone"></i>CONTACT-US</a>
+	</nav>
+	<section id="main-content-section">
+		<article class="main-content-article">
+			<h3>cricket team</h3>
+			<img src="https://images.news18.com/ibnlive/uploads/924x616/jpg/2021/03/1616595636_srh.jpg?impolicy=website&width=924&height=616">
+			<p>Orange Army is back to win the cup 
+
+			
+		</article>
+		
+			<article class="main-content-article">
+			<h3>Bowlers</h3>
+			<img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/03/20/Pictures/_37b2d9e8-4b27-11e9-bf2d-62d340f7f10c.jpg">
+			<p >Efficient bowlers to make team success</p>
+		</article>
+			<article class="main-content-article">
+			<h3>Batting Team</h3>
+			<img src="https://images.news18.com/ibnlive/uploads/2020/08/1598630582_srh-wiliamson-1581997273-1.jpg">
+			<p >Hitters who can make wonders</p>
+
+
+		</article>
+	</section>
+	<section id="main-content-section2">
+		<article class="main-content-article2">
+			<h3>Team:news<h3>
+				<img src="https://c.ndtvimg.com/2020-04/emel58rg_david-warner-afp_625x300_09_April_20.jpg" class="zoom">
+				<p>Warner most energetic batsman</p>
+
+
+			
+		</article>
+	</section>
+	<section id="main-content-section2">
+		<article class="main-content-article2">
+			<h3>Team:news<h3>
+				<img src="https://cdn.insidesport.co/wp-content/uploads/2020/09/30110731/2020-09-29-6-1.png">
+				<p>bairstow</p>
+
+
+			
+		</article>
+	</section>
+	<footer id="main-footer">
+		<p>CopyRight&copy;:2021</p>
+		<small>All Rights are Reserved</small>
+	</footer>
+
+
+</body>
+</html
